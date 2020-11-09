@@ -242,8 +242,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1c6f8d59eecfc8747bc3f0c227fc85a8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  delta: 20
-  speed: 0.5
+  delta: 10
+  speed: 10
   asteroidPrefab: {fileID: 2868061545355963782, guid: 6c8127d3fe2a4534ebf8587d0c6f14d9,
     type: 3}
   lastAsteroidTime: -100

@@ -24,7 +24,7 @@ public class Spawner : MonoBehaviour
         v.x += delta * Mathf.Sin(Time.time * speed);
         transform.position = v;
 
-        if (Time.time - lastAsteroidTime > 3f)
+        if (Time.time - lastAsteroidTime > 1f)
         {
             lastAsteroidTime = Time.time;
             GameObject asteroid = Instantiate(asteroidPrefab);
